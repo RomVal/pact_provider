@@ -1,0 +1,24 @@
+{
+  "name": "graphql_pact",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:pact": "jest pact.spec.js --detectOpenHandles"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.8.1"
+  },
+  "devDependencies": {
+    "@pact-foundation/pact": "^12.1.1",
+    "@pact-foundation/pact-node": "^10.17.7",
+    "jest": "^29.7.0",
+    "pact": "^4.3.2"
+  }
+}
